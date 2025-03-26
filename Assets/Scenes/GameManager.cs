@@ -1,11 +1,12 @@
 ﻿using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 
 
     public class GameManager : MonoBehaviour
     {
 
-        public Text PlayerNumberText;//玩家數字
+        public TMP_Text PlayerNumberText;//玩家數字
         public Text ComNumberText;//電腦數字
         public Text ResultText;//勝負
 
